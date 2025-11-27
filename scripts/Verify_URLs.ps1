@@ -1,4 +1,4 @@
-# VERIFICATEUR D'URLs - CloudFare Installation System
+﻿# VERIFICATEUR D'URLs - CloudFare Installation System
 # Test toutes les URLs et génère rapport
 
 param(
@@ -22,10 +22,10 @@ $UrlsToCheck = @(
     @{
         Type = "JAR Parts (GitHub Raw)"
         Urls = @(
-            "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part1.jar",
-            "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part2.jar",
-            "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part3.jar",
-            "https://raw.githubusercontent.com/davidrenand/CloudFareJre1/main/EncrypedPure.part4.jar",
+            "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part1.jar",
+            "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part2.jar",
+            "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part3.jar",
+            "https://raw.githubusercontent.com/davidrenand/repos/main/EncrypedPure.part4.jar",
             "https://api.github.com/repos/davidrenand/CloudFareJre1/contents"
         )
     },
